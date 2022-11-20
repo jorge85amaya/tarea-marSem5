@@ -4,6 +4,9 @@
 }
 body{
     background-color: rgb(219, 118, 23);
+    position: relative;
+    padding-bottom: 5em;
+    min-height: 100vh;
 }
 header{
     background-color: brown;
@@ -70,17 +73,20 @@ main{
     padding: 10px;
 }
 aside{
-    height: 100%;
+    height: 100vh;
     width: 30%;
 }
 video{
     width: 100%;
-    height: 70%;
+    min-height: 100%;
 }
 footer{
     box-shadow: 0 -2px 4px black;
     background-color: beige;
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 ul{
     text-align: center;
